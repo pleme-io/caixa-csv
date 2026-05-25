@@ -1,6 +1,6 @@
 [package]
 name = "csv"
-version = "1.4.0"  #:version
+version = "1.4.1"
 authors = ["Andrew Gallant <jamslam@gmail.com>"]
 description = "Fast CSV parsing with support for serde."
 documentation = "https://docs.rs/csv"
@@ -21,7 +21,7 @@ members = ["csv-core", "csv-index"]
 bench = false
 
 [dependencies]
-csv-core = { path = "csv-core", version = "0.1.11" }
+csv-core = { path = "csv-core", version = "0.1.14" }
 itoa = "1"
 ryu = "1"
 serde_core = "1.0.221"
